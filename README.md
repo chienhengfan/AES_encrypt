@@ -11,9 +11,9 @@
 
   1.TypeError: Object type <type 'unicode'> cannot be passed to C code | solution : str.encode()
 
-  2.padding is incorrect solution: making padding vector can be divided by AES.blocksize(因為AES是採取一個區塊一個區塊加密的形式
+  2.padding is incorrect | solution: making padding vector can be divided by AES.blocksize(因為AES是採取一個區塊一個區塊加密的形式
   
-  3.未解決問題: 在某些文字跟.NET 寫出來的程式在解碼還是會有不同，目前不知道是甚麼原因
+  3.由於跟PHP程式的padding不相同，因此如果源頭是PHP要另外寫
 
 主要參考網站:
 
