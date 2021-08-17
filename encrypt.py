@@ -75,5 +75,5 @@ if __name__ == '__main__':
     print('enc_str: ' + enc_str.decode())
     print('dec str: ' + dec_str)
 
-    dec_str2 = e.decrypt('/k3FHYD8RHSnXRShqUncU1E2xzFlsbKuJsVUCrgp0WsL71KjiMcMZbs5Byh2U4NgakUmc280/E1US1TbkTq/Tcrg2rZ1R8y/QGblrH/bcmU=')
+    dec_str2 = e.decrypt('{YOUR ENCODED STRING}')
     print('decode2 : ' + dec_str2)
